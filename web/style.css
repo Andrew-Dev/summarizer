@@ -1,0 +1,40 @@
+.shortener-form-card {
+	margin: 0 auto;
+	display: table;
+	margin-top: 10vh;
+	width: 90%;
+}
+.article-card {
+	margin: 0 auto;
+	display: table;
+	margin-top: 2vh;
+	width: 90%;
+	height: 320px;
+}
+.article-card > .mdl-card__title {
+	color: #fff;
+    background-size:cover;
+}
+.tallImage {
+	min-height: 240px;
+}
+.fullwidth {
+	width: 100%;
+}
+.shortener-form-card > .mdl-card__title {
+  color: #fff;
+  height: 60px;
+  background-color: #FF4081;
+}
+.shortener-form-card > .mdl-card__menu {
+  color: #fff;
+}
+body {
+	height: 120vh;
+}
+.github {
+	text-align: center;
+	display: block;
+	align-content: center;
+	margin: 0 auto;
+}
