@@ -21,6 +21,7 @@ def hello():
 def summarize():
     rawStr = str(request.stream.read())
     rawStr = rawStr.replace("b'","")
+    rawStr = rawStr.replace("\\r\\n","")
     rawStr = rawStr[:-1]
     data = json.loads(rawStr)
     print(data)
